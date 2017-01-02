@@ -20,32 +20,33 @@
     -->
     <script type="text/javascript">
         function validate() {
-            var id = document.forms[0].id.value;
-            var name = document.forms[0].name.value;
-            var age = document.forms[0].age.value;
-            var major = document.forms[0].major.value;
-            if (id <= 0) {
-                alert("学号不能为空，请输入学号！");
-                return false;
-            }
-            else if (name.length <= 0) {
-                alert("姓名不能为空，请输入姓名！");
-                return false;
-            }
-            else if (age <= 0) {
-                alert("请输入合法年龄！");
-                return false;
-            }
-
-            else if (major.length <= 0) {
-                alert("专业不能为空，请输入所学专业！");
-                return false;
-            }
-
-            else {
-                return true;
-            }
+//            var id = document.forms[0].id.value;
+//            var name = document.forms[0].name.value;
+//            var age = document.forms[0].age.value;
+//            var major = document.forms[0].major.value;
+//            if (id <= 0) {
+//                alert("学号不能为空，请输入学号！");
+//                return false;
+//            }
+//            else if (name.length <= 0) {
+//                alert("姓名不能为空，请输入姓名！");
+//                return false;
+//            }
+//            else if (age <= 0) {
+//                alert("请输入合法年龄！");
+//                return false;
+//            }
+//
+//            else if (major.length <= 0) {
+//                alert("专业不能为空，请输入所学专业！");
+//                return false;
+//            }
+//
+//            else {
+//                return true;
+//            }
             //document.getElementById("form").submit();
+            return true;
         }
     </script>
 </head>
@@ -67,7 +68,7 @@
         <h4> 专业：<input type="text" name="major" title="专业不能为空"/><br></h4>
         <input type="submit" value="提交" style="margin-left: 30px"/>
         <input type="button" value="取消" style="margin-left: 30px"
-               onclick="javascript:window.location.href='AllServlet?methodName=<%=1 %>&id=<%="" %>&name=<%="" %>';"/>
+               onclick="javascript:window.location.href='AllServlet?methodName=<%=6 %>&id=<%="" %>&name=<%="" %>';"/>
 
         <!-- web容器接受Allservlet 然后判断 -->
 

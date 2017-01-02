@@ -67,7 +67,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <h4>  专业：<input type="text" name="major"title="专业不能为空" /><br></h4>
  <input type="submit" value="提交" style="margin-left: 30px" />
  <input type="button" value="取消" style="margin-left: 30px"
- onclick="javascript:window.location.href='AllServlet?methodName=<%=1 %>&id=<%="" %>&name=<%="" %>';"/>
+ onclick="javascript:window.location.href='AllServlet?methodName=<%=6 %>&id=<%="" %>&name=<%="" %>';"/>
  
  <!-- web容器接受Allservlet 然后判断 -->
  

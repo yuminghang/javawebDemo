@@ -11,7 +11,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AllServlet</servlet-name>
-        <url-pattern>/AllServlet</url-pattern>
+        <url-pattern>/sb</url-pattern>
     </servlet-mapping>
 
 
